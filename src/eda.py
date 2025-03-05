@@ -33,16 +33,11 @@ def return_average_budget(data):
 
 
 def visualize_budget(data):
-    sns.lmplot(x="year", y="budget imbalance", data=data)
+    sns.lmplot(x="Year", y="budget imbalance", data=data)
     plt.title("Budget Imbalance Over Time")
     plt.xlabel("Year")
     plt.ylabel("Budget Imbalance (GtCO2)")
+    plt.tight_layout()
     plt.show()
     plt.clf()
 
-
-def main():
-    data = load_data()
-    print(data.head())
-    print(return_average_budget(data))
-    visualize_budget(data)
