@@ -31,7 +31,7 @@ The dataset contains the following columns:
 2. Evaluate the model's performance using appropriate metrics.
 3. Interpret the results and draw conclusions.
 
-### Predictive Modeling: Predicting the Future "Budget Imbalance"
+### Predictive Modeling: Forecasting the "Budget Imbalance"
 1. Create a predictive model to forecast the "budget imbalance" for the years 2024-2030.
 2. Evaluate the model's performance using appropriate metrics.
 3. Interpret the results and draw conclusions.
