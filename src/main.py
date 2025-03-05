@@ -1,9 +1,6 @@
-from pathlib import Path
-import sys
-from src import module
+"""Main script to call functions from other modules."""
 
-# Add the parent directory to the path
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+import eda
 
 if __name__ == "__main__":
-    module.test()
+    eda.main()
