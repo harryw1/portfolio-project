@@ -55,8 +55,8 @@ To demonstrate the following skills:
 1. Clone the repository:
 
   ```bash
-  git clone
-  cd
+  git clone https://github.com/harryw1/portfolio-project
+  cd portfolio-project
   ```
 
 2. Install the required packages:
