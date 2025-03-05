@@ -45,6 +45,36 @@ To demonstrate the following skills:
 - Model evaluation and interpretation
 - Communication of results
 
+## Requirements
+
+- Python 3.11+
+- uv
+
+## Installation
+
+1. Clone the repository:
+
+  ```bash
+  git clone
+  cd
+  ```
+
+2. Install the required packages:
+
+  ```bash
+  uv venv
+  source .venv/bin/activate
+  uv pip install -r requirements.txt
+  ```
+
+## Usage
+
+Run the following command to execute the project:
+
+```bash
+python main.py
+```
+
 ## Source
 
 Friedlingstein et. al. Global Carbon Budget 2024, Earth Syst.
