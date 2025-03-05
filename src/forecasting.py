@@ -3,7 +3,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
 
 
 def generate_future_years(start_year, end_year):
@@ -129,7 +128,7 @@ def pipeline(historical, models, start_year, end_year):
 
     Returns:
         tuple (forecast, fig): Forecasted values for all components and
-        the figure object for the plot.
+            the figure object for the plot.
 
     """
     future_years = generate_future_years(start_year, end_year)
