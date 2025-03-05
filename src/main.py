@@ -2,6 +2,7 @@
 
 import eda
 import modeling
+import forecasting
 
 
 def main():
@@ -33,6 +34,10 @@ def main():
         print("Model scores:")
         for component, score in scores.items():
             print(f"{component}: {score:.4f}")
+
+        forecast, fig = forecasting.pipeline(data, models, 2024, 2050)
+        forecast.to_csv("results/forecast.csv", index=False)
+        fig.savefig("results/forecast.png", dpi=300)
 
         return 0
     except FileNotFoundError as e:
