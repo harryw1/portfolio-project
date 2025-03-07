@@ -32,7 +32,7 @@ def train_component(data, component, year="Year"):
 
     Args:
         data: The carbon budget dataset as a pandas DataFrame.
-        components: The names of the components to model.
+        component: The names of the components to model.
         year: The name of the year column. (default: "Year")
 
     Returns:
